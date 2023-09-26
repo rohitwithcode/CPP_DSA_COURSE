@@ -25,5 +25,10 @@ int main()
 
     bool b3=(x!=y);
     cout<<b3<<endl;
+
+    int p=43;
+    cout<<!p<<endl;
+    int q=0;
+    cout<<!q<<endl;
     return 0;
 }
