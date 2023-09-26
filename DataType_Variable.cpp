@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+/*    
     int a=34;
     cout<<"A = "<<endl;
 
@@ -20,5 +21,21 @@ int main()
 
     int size=sizeof(a);
     cout<<"Size of the a is "<<size<<endl;
+*/
+
+    int a='a';
+    cout<<a<<endl;
+
+    char ch=98;
+    cout<<ch<<endl;
+
+    char c=123456;
+    cout<<c<<endl;
+
+
+    // unsigned int x=-345;
+    // cout<<x<<endl;
+
+
     return 0;
 }
