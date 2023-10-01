@@ -15,5 +15,14 @@ int main(){
     cout<<"(19>>1)="<<(19>>1)<<endl;
     cout<<"(21>>2)="<<(21<<2)<<endl;
     
+
+    // Increment OR Decrement Operator
+
+    int i=2;
+    cout<<(++i)<<endl;
+    cout<<(i++)<<endl;
+    cout<<(i--)<<endl;
+    cout<<(--i)<<endl;
+
 return 0;
 }
