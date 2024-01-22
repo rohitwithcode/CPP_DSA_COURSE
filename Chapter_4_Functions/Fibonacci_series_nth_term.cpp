@@ -1,12 +1,14 @@
 #include<iostream>
 using namespace std;
 
-int fib(int n){
+int fib(int n)
+{
 
     int firstTerm=0;
     int secondTerm=1;
     int nextTerm=0;
-    for(int i=3;i<=n;i++){
+    for(int i=3;i<=n;i++)
+    {
          nextTerm=firstTerm+secondTerm;
 
         firstTerm=secondTerm;
