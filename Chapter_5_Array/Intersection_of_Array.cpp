@@ -19,40 +19,40 @@ using namespace std;
 //     }
 // }
 
-void array_Intersection(int arr[],int arr1[],int size1,int size2)
-{
-    for (int i = 0; i < size1;)
-    {
-        for (int j = 0; j < size2;)
-        {
+// void array_Intersection(int arr[],int arr1[],int size1,int size2)
+// {
+//     for (int i = 0; i < size1;)
+//     {
+//         for (int j = 0; j < size2;)
+//         {
             
-            if (arr[i]==arr1[j])
-            {
-                cout<<arr[i]<<" ";
-                i++;
-                j++;
-            }
-            else if (arr[i]<arr1[j])
-            {
-                i++;
-            }
-            else
-            {
-                j++;
-            }        
-        }     
-    }
-}
+//             if (arr[i]==arr1[j])
+//             {
+//                 cout<<arr[i]<<" ";
+//                 i++;
+//                 j++;
+//             }
+//             else if (arr[i]<arr1[j])
+//             {
+//                 i++;
+//             }
+//             else
+//             {
+//                 j++;
+//             }        
+//         }     
+//     }
+// }
 
-int main()
-{
-    int arr[]={1,2,2,3,4,5,6,7};
-    int arr1[]={2,2,3,3,7};
+// int main()
+// {
+//     int arr[]={1,2,2,3,4,5,6,7};
+//     int arr1[]={2,2,3,3,7};
 
-    array_Intersection(arr,arr1,8,5);
-    return 0;
-}
-/*
+//     array_Intersection(arr,arr1,8,5);
+//     return 0;
+// }
+
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -93,4 +93,3 @@ int main()
     array_Intersection(arr,arr1,8,5);
     return 0;
 }
-*/
