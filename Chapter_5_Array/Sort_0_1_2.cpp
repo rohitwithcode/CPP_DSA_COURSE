@@ -24,7 +24,8 @@ void sort_0_1_2(int arr[],int size)
             arr[high]=temp;
             high--;
         }
-        else{
+        else
+        {
             mid++;
         }   
    }
