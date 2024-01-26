@@ -36,8 +36,8 @@ void sort_0_1_2(int arr[],int size)
 }
 int main()
 {
-    int arr[]={2,2,2,1,0,2,2,1,0,1,1,0,2};
+    int arr[]={2,2,2,1,0,2,2,1,0,1};
 
-    sort_0_1_2(arr,13);
+    sort_0_1_2(arr,10);
     return 0;
 }
