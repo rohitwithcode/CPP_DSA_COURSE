@@ -59,7 +59,7 @@ using namespace std;
 
 void array_Intersection(int arr[],int arr1[],int size1,int size2)
 {
-    vector<int> a;
+    // vector<int> a;
     int i=0,j=0;
     while(i<size1 && j<size2)
     {
