@@ -30,9 +30,9 @@ void bubbleSort(int arr[],int size)
         }
         if (swap == false)
         {
+            // Time complexity in this case is : O(n)
             break;
         }
-        
     }
 }
 
