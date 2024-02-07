@@ -15,6 +15,7 @@ void bubbleSort(int arr[],int size)
     // when i=0 then condition of j is : (j<i-1)
     for (int i = 1; i < size;i++)
     {
+        bool swap=false;
         // for round 1 to size-1
         for (int j = 0; j < size-i; j++)
         {
@@ -24,8 +25,14 @@ void bubbleSort(int arr[],int size)
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
+                swap=true;
             }
         }
+        if (swap == false)
+        {
+            break;
+        }
+        
     }
 }
 
