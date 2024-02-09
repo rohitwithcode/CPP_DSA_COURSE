@@ -12,7 +12,7 @@ void print(int arr[],int size)
 
 void bubbleSort(int arr[],int size)
 {
-    // when i=0 then condition of j is : (j<i-1)
+    // when i=0 then condition of j is : (j<size-i-1)
     for (int i = 1; i < size;i++)
     {
         bool swap=false;
