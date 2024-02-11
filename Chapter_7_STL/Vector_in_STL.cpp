@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
 int main()
@@ -23,6 +24,7 @@ int main()
         cout<<k<<" ";
     }
     cout<<endl;
+    
     cout<<"Capacity of vector  : "<<v.capacity()<<endl;
     v.push_back(1);
     cout<<"Capacity of vector  : "<<v.capacity()<<endl;
