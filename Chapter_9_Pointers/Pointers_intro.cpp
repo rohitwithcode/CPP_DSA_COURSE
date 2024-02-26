@@ -10,8 +10,7 @@ int main()
 
    cout<<"The address of n is "<<&n<<endl;
 
-   // value at operator 
-
+    // Pointer and Dereferencing Operator
    int *pointer=&n;
 
    cout<<"Address of n is : "<<pointer<<endl;
