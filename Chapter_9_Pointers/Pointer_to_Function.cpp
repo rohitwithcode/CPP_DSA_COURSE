@@ -35,6 +35,7 @@ int main()
     cout<<"Before : "<<*ptr<<endl;
 
     update(ptr);
+    
     cout<<"After : "<<*ptr<<endl;
 
     int arr[6]={1,2,3,4,5,8};
